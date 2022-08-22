@@ -1,0 +1,15 @@
+D:\education\progs\lecture\example002_hellouser\bin\Debug\net6.0\example002_hellouser.exe
+D:\education\progs\lecture\example002_hellouser\bin\Debug\net6.0\example002_hellouser.deps.json
+D:\education\progs\lecture\example002_hellouser\bin\Debug\net6.0\example002_hellouser.runtimeconfig.json
+D:\education\progs\lecture\example002_hellouser\bin\Debug\net6.0\example002_hellouser.dll
+D:\education\progs\lecture\example002_hellouser\bin\Debug\net6.0\example002_hellouser.pdb
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.csproj.AssemblyReference.cache
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.GeneratedMSBuildEditorConfig.editorconfig
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.AssemblyInfoInputs.cache
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.AssemblyInfo.cs
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.csproj.CoreCompileInputs.cache
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.dll
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\refint\example002_hellouser.dll
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.pdb
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\example002_hellouser.genruntimeconfig.cache
+D:\education\progs\lecture\example002_hellouser\obj\Debug\net6.0\ref\example002_hellouser.dll
