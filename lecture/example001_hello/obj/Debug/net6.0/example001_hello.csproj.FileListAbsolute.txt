@@ -1,0 +1,15 @@
+D:\education\progs\lecture\example001_hello\bin\Debug\net6.0\example001_hello.exe
+D:\education\progs\lecture\example001_hello\bin\Debug\net6.0\example001_hello.deps.json
+D:\education\progs\lecture\example001_hello\bin\Debug\net6.0\example001_hello.runtimeconfig.json
+D:\education\progs\lecture\example001_hello\bin\Debug\net6.0\example001_hello.dll
+D:\education\progs\lecture\example001_hello\bin\Debug\net6.0\example001_hello.pdb
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.csproj.AssemblyReference.cache
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.GeneratedMSBuildEditorConfig.editorconfig
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.AssemblyInfoInputs.cache
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.AssemblyInfo.cs
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.csproj.CoreCompileInputs.cache
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.dll
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\refint\example001_hello.dll
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.pdb
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\example001_hello.genruntimeconfig.cache
+D:\education\progs\lecture\example001_hello\obj\Debug\net6.0\ref\example001_hello.dll
