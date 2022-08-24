@@ -8,6 +8,7 @@ a = Int32.Parse(input);
 count = 1;
 
 while (count <= a)
+
 // Первый вариант:
 // {
 //     if (count % 2 == 0)
@@ -23,7 +24,7 @@ while (count <= a)
     {
         if (count == a || count == a - 1) Console.Write(count);
         else Console.Write(count + ", ");
-        
+
     }
     count = count + 1;
 }
