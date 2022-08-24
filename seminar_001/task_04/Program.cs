@@ -22,7 +22,7 @@ while (count <= a)
 {
     if (count % 2 == 0)
     {
-        if (count == a || count == a - 1) Console.Write(count);
+        if (count + 1 >= a) Console.Write(count);
         else Console.Write(count + ", ");
 
     }
