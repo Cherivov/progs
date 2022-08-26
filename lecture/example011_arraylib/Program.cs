@@ -31,7 +31,7 @@ int IndexOf(int[] collection, int find)
     {
         if (collection[index] == find)
         {
-            position= index;
+            position = index;
             break;
         }
         index++;
@@ -45,5 +45,5 @@ FillArray(array);
 PrintArray(array);
 Console.WriteLine();
 
-int pos= IndexOf(array,4);
+int pos = IndexOf(array, 4);
 Console.WriteLine(pos);
