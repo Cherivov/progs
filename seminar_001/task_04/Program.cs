@@ -8,10 +8,23 @@ a = Int32.Parse(input);
 count = 1;
 
 while (count <= a)
+
+// Первый вариант:
+// {
+//     if (count % 2 == 0)
+//     {
+//         Console.Write(count + ", ");
+//     }
+//     count = count + 1;
+// }
+
+// Вариант с исправлением.
 {
     if (count % 2 == 0)
     {
-        Console.Write(count + ", ");
+        if (count + 1 >= a) Console.Write(count);
+        else Console.Write(count + ", ");
+
     }
     count = count + 1;
 }
