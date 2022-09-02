@@ -9,4 +9,3 @@ while (index < N)
     Console.Write(array[index] + " ");
     index++;
 }
-// Console.WriteLine(array);
