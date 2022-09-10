@@ -1,38 +1,50 @@
-﻿int start = 1;
-int stop = 65536;
-int digit_third;
+﻿Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Какую цифру числа вывести на экран?");
+int pos = Convert.ToInt32(Console.ReadLine());
 
-int number = new Random().Next(start, stop + 1);
-Console.WriteLine("Сгенерированное число: " + number);
-
-if (number < 100)
+int length(int number)
 {
-    Console.WriteLine("Третьей цифры нет!");
+    int len = 1;
+    while ((number /= 10) >= 1) ++len;
+    return len;
 }
-else
+int n = length(number) - pos;
+
+int a = Convert.ToInt32(Math.Pow(10, n + 1));
+int b = Convert.ToInt32(Math.Pow(10, n));
+int digit = Convert.ToInt32((number % a) / b);
+
+switch (pos)
 {
-
-    if (number < 1000)
-    {
-        digit_third = number % 10;
-        Console.WriteLine("Третья цифра числа " + number + ": " + digit_third);
-    }
-    else
-    {
-        if (number < 10000)
-        {
-            digit_third = (number % 100) / 10;
-            Console.WriteLine("Третья цифра числа " + number + ": " + digit_third);
-        }
-
-        else
-
-        {
-
-
-            digit_third = (number % 1000) / 100;
-            Console.WriteLine("Третья цифра числа " + number + ": " + digit_third);
-
-        }
-    }
+    case 0:
+        Console.WriteLine("Нулевого числа не существует");
+        break;
+    case 1:
+        Console.WriteLine("Первая цифра числа " + number + " будет " + digit);
+        break;
+    case 2:
+        Console.WriteLine("Вторая цифра числа " + number + " будет " + digit);
+        break;
+    case 3:
+        Console.WriteLine("Третья цифра числа " + number + " будет " + digit);
+        break;
+    case 4:
+        Console.WriteLine("Четвертая цифра числа " + number + " будет " + digit);
+        break;
+    case 5:
+        Console.WriteLine("Пятая цифра числа " + number + " будет " + digit);
+        break;
+    case 6:
+        Console.WriteLine("Шестая цифра числа " + number + " будет " + digit);
+        break;
+    case 7:
+        Console.WriteLine("Седьмая цифра числа " + number + " будет " + digit);
+        break;
+    case 8:
+        Console.WriteLine("Восьмая цифра числа " + number + " будет " + digit);
+        break;
+    case 9:
+        Console.WriteLine("Девятая цифра числа " + number + " будет " + digit);
+        break;
 }
