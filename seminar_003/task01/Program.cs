@@ -13,7 +13,7 @@ int digit_fifth = number % 10;
 // Console.WriteLine(digit_fourth);
 // Console.WriteLine(digit_fifth);
 
-if ((digit_first==digit_fifth) & (digit_second == digit_fourth))
+if ((digit_first == digit_fifth) && (digit_second == digit_fourth))
 {
     Console.WriteLine("Ура, число: " + number + " является полиндромом");
 }
