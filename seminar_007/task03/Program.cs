@@ -25,6 +25,6 @@ for (int i = 0; i < n; i++)
 Console.WriteLine();
 for (int i = 0; i < avg_array.Length; i++)
 {
-    Console.Write(avg_array[i] + " ");
+    Console.Write(Math.Round(avg_array[i], 1) + " ");
 }
 
