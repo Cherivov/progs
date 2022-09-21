@@ -1,25 +1,56 @@
-﻿Console.WriteLine("Введите первый параметр от 1 до 3: ");
-int firstParametr = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второй параметр от 1 до 11: ");
-int secondParametr = Convert.ToInt32(Console.ReadLine());
+﻿// Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 
-int Ackerman(int n, int m)
+int[,] array = new int[4, 4];
+
+Random rnd = new Random();
+
+void fillArray(int[,] array)        //заполнение массива
 {
-    if (n == 0)
-        return m + 1;
-    else
-      if ((n != 0) && (m == 0))
-        return Ackerman(n - 1, 1);
-    else
-        return Ackerman(n - 1, Ackerman(n, m - 1));
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            int number = rnd.Next(1, 100);
+            array[i, j] = number;
+        }
+    }
 }
 
-if ((firstParametr < 0) || (secondParametr < 0) || (firstParametr > 3) || (secondParametr > 11))
+void printArray(int[,] array)       //Вывод массива на экран 
 {
-    Console.WriteLine("Вы вышли за пределы диапозона");
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j] + "\t");
+        }
+        Console.WriteLine();
+    }
 }
-else
+
+void SortMaxToMin(int[,] array)
 {
-    int result = Ackerman(firstParametr, secondParametr);
-    Console.WriteLine(result);
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int k = 0; k < array.GetLength(1); k++)
+        {
+
+
+            for (int j = 0; j < array.GetLength(1) - 1; j++)
+            {
+                if (array[i, j] < array[i, j + 1])
+                {
+                    int tmp = array[i, j];
+                    array[i, j] = array[i, j + 1];
+                    array[i, j + 1] = tmp;
+                }
+            }
+        }
+    }
 }
+
+fillArray(array);
+printArray(array);
+Console.WriteLine();
+SortMaxToMin(array);
+printArray(array);
