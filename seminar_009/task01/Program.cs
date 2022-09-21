@@ -1,5 +1,6 @@
-﻿Console.WriteLine("Введите два параметра больше нуля: ");
+﻿Console.WriteLine("Введите первый параметр от 1 до 3: ");
 int firstParametr = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второй параметр от 1 до 11: ");
 int secondParametr = Convert.ToInt32(Console.ReadLine());
 
 int Ackerman(int n, int m)
@@ -13,9 +14,9 @@ int Ackerman(int n, int m)
         return Ackerman(n - 1, Ackerman(n, m - 1));
 }
 
-if ((firstParametr < 0) || (secondParametr < 0))
+if ((firstParametr < 0) || (secondParametr < 0) || (firstParametr > 3) || (secondParametr > 11))
 {
-    Console.WriteLine("Вы ввели отрицательное число");
+    Console.WriteLine("Вы вышли за пределы диапозона");
 }
 else
 {
